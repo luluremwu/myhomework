@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #caf0f8;
+    margin: 0px;
+}
+
+header {
+    background-color:#00b4d8;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+}
+
+main {
+    padding: 20px;
+}
+
+.card{
+     background-color: white;
+     padding: 20px;
+     margin: 20px 10px;
+     border-radius: 15px;
+     background-size: cover;
+}
+
+article {
+    float: right;
+    width: 73%;
+}
+
+
+
+aside{
+    float: left;
+    width: 25%;
+    text-align:center
+}
+
+nav{
+    background-color:#90e0ef
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #cda8b8;
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
